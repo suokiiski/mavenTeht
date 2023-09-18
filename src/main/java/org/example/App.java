@@ -11,10 +11,18 @@ public class App
         return celsius;
     }
 
+    public static double Matka(int aloituspaikka, int loppupaikka) {
+        int matka;
+
+        matka = loppupaikka - aloituspaikka;
+        System.out.println("Pisteiden " + aloituspaikka + " ja " + loppupaikka + " välimatka on " + matka);
+        return matka;
+    }
+
 
     public static void main( String[] args ) {
 
-        System.out.println( "Let's calculate fahrenheit to celsius! :)" );
+        System.out.println( "Let's calculate stuff :)");
 
     }
 }

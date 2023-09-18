@@ -14,4 +14,13 @@ public class AppTest {
         assertEquals(-15.0, celsius, delta);
     }
 
+    @Test
+    public void TestiMatka() {
+        int aloituspaikka = 30;
+        int loppupaikka = 80;
+        double delta = 0.01;
+        double matka = App.Matka(aloituspaikka, loppupaikka);
+        assertEquals(50.0, matka, delta);
+    }
+
 }
